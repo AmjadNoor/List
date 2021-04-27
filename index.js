@@ -64,7 +64,6 @@ function doneSetting() {
 function add() {
     const val = document.querySelector('#textInput').value;
     if((val !== undefined) && (val !== "")) {
-        let idNum;
         let list = document.querySelector("#list");
         let newDiv = document.createElement("DIV");
         newDiv.style.textAlign = "left";
